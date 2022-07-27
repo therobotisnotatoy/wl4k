@@ -1,0 +1,13 @@
+[flake8]
+ignore = H101
+exclude =
+    __pycache__,
+    venv,
+    .git
+
+max-line-length = 120
+max-complexity = 12
+inline-quotes = "
+
+docstring-convention = google
+import-order-style = cryptography
